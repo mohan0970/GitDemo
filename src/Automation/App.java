@@ -16,5 +16,12 @@ public class App {
 		System.out.println("app3");
 		System.out.println("app4");
 	}
+	
+	@Test
+	public void app3()
+	{
+		System.out.println("app5");
+		System.out.println("app6");
+	}
 
 }
