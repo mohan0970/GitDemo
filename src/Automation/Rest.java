@@ -1,5 +1,7 @@
 package Automation;
 
+import org.testng.annotations.Test;
+
 public class Rest {
 	 public void postJira()
 	 {
@@ -12,6 +14,12 @@ public class Rest {
 		System.out.println("postJira6");
 		
 		
+	 }
+	 @Test
+	 public void rest()
+	 {
+		 System.out.println("rest1");
+		 System.out.println("rest2");
 	 }
 
 }
